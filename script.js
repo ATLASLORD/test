@@ -1,5 +1,8 @@
-fetch('https://stark-bastion-71536.herokuapp.com/https://games.planetaryannihilation.net/')
-
+ fetch('https://cryptic-mountain-40626-a8a4c6663ade.herokuapp.com/https://games.planetaryannihilation.net/', {
+        headers: {
+            'x-requested-with': 'xhr' 
+        }
+    })
     .then(response => response.json())
     .then(data => {
         // Get the div where we will display the game data
