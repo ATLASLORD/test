@@ -1,4 +1,4 @@
-fetch('https://your-app-name.herokuapp.com/https://games.planetaryannihilation.net/')
+fetch('https://stark-bastion-71536.herokuapp.com/https://games.planetaryannihilation.net/')
     .then(response => response.json())
     .then(data => {
         // Get the div where we will display the game data
