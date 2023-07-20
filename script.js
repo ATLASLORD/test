@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  let cors_api_url = 'https://cryptic-mountain-40626-a8a4c6663ade.herokuapp.com/https://games.planetaryannihilation.net/';
+  let cors_api_url = 'https://cryptic-mountain-40626-a8a4c6663ade.herokuapp.com';
   fetch(cors_api_url, {
     method: "GET",
     headers: {
